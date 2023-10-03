@@ -36,5 +36,10 @@ Button se utiliza para crear botones interactivos en una página web que permite
 
 **form:** Especifica a qué formulario pertenece el botón.
 
-3. Explique el método addEventlistener y como se utiliza en este proyecto
-4. Explique la forma en que son validadas cada una de las entradas.
+### 3. Explique el método addEventlistener y como se utiliza en este proyecto
+
+Es un método en que se utiliza para asociar un evento a un elemento HTML y definir una función que se ejecutará cuando ese evento ocurra. Se utiliza en este proyecto activar una funcion cuando se carga la pagina y cuando se aprieta el boton.
+
+### 4. Explique la forma en que son validadas cada una de las entradas.
+
+Las entradas se validan por medio de expresiones regulares.
