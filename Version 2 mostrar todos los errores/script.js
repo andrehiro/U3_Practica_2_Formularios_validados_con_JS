@@ -31,7 +31,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
         // Validar teléfono (###)###-####
-        if (!/^\d3\d{ 3 } -\d{ 4 } $ /.test(telefono)) {
+        if (!/^\(\d{3}\)\d{3}-\d{4}$/.test(telefono)) {
             errores.push("El teléfono debe tener el formato (###)###-####.");
     }
 
