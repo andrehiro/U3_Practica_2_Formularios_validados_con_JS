@@ -42,4 +42,4 @@ Es un método en que se utiliza para asociar un evento a un elemento HTML y defi
 
 ### 4. Explique la forma en que son validadas cada una de las entradas.
 
-Las entradas se validan por medio de expresiones regulares.
+Las entradas se validan por medio de expresiones regulares. Cada entrada tiene un if que define si esta bien escrito o no.
