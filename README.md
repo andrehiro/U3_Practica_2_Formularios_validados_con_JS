@@ -2,7 +2,7 @@
 
 Andre Alexander Hidrogo Rocha 03/10/2023 Es un formulario validado con un script en JS
 
-## 1. Explique el funcionamiento de la etiqueta input en HTML, indicando los diferentes argumentos que puede tener.
+### 1. Explique el funcionamiento de la etiqueta input en HTML, indicando los diferentes argumentos que puede tener.
 
 Input se utiliza para crear elementos de entrada interactivos, estos permiten a los usuarios proporcionar datos que pueden ser enviados al servidor web.
 Algunos de los argumentos que puede tener son el:
