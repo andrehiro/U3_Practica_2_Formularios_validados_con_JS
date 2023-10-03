@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Validación</title>
+    <!-- Agregar Bootstrap CSS -->
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.5.0/dist/css/bootstrap.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Formulario de Validación</h1>
+        <form id="formulario">
+            <div class="mb-3">
+                <input type="text" class="form-control" id="id" name="id" placeholder="ID">
+            </div>
+            <div class="mb-3">
+                <input type="text" class="form-control" id="nombre" name="nombre" placeholder="Nombre">
+            </div>
+            <div class="mb-3">
+                <input type="text" class="form-control" id="apellidos" name="apellidos" placeholder="Apellido">
+            </div>
+            <div class="mb-3">
+                <input type="text" class="form-control" id="telefono" name="telefono" placeholder="Telefono (###)###-####">
+            </div>
+            <div class="mb-3">
+                <input type="email" class="form-control" id="correo" name="correo" placeholder="Correo Electrónico">
+            </div>
+            <div class="mb-3">
+
+                <input type="text" class="form-control" id="edad" name="edad" placeholder="Edad">
+            </div>
+            <div class="mb-3">
+                <input type="date" class="form-control" id="fechaNacimiento" name="fechaNacimiento">
+            </div>
+            <button type="submit" class="btn btn-primary">Enviar</button>
+        </form>
+        <div id="mensajeError" class="text-danger mt-3"></div>
+    </div>
+
+    <!-- Agregar Bootstrap JS y tu archivo de JavaScript personalizado -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.5.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

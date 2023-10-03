@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+script{
+    text-align: center;
+}
+
+/*Modificacion de los inputs*/
+.form-control {
+    border: none;
+    border-bottom: 1px solid black;
+    border-radius: 0;
+    padding: 5px 0;
+    display: block;
+    margin: auto;
+    padding: 20px;
+    padding-right: 50px;
+    padding-left: 50px;
+    text-align: center;
+}
+
+.form-control:hover {
+    border-color: #007bff;
+    box-shadow: none;
+}
+
+.form-control:focus {
+    outline: none;
+}
+
+#fechaNacimiento{
+    padding-right: 78px;
+    padding-left: 78px;
+    color: gray;
+}
+
+/*Modificacion del boton*/
+
+button{
+    display: block;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding: 15px;
+    padding-right: 114px;
+    padding-left: 113px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
+
+button:hover{
+    font-size: large;
+    transition: 0.5s;
+}
+
+/*Modificacion de las alertas*/
+#mensajeError{
+    line-height: 2;
+}
