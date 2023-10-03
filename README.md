@@ -20,6 +20,21 @@ Algunos de los argumentos que puede tener son el:
 **disabled:** Al establecer este atributo, el campo de entrada se desactiva.
 
 
-#### 3. Explique como puede configurarse la etiqueta button
-4. Explique el método addEventlistener y como se utiliza en este proyecto
-5. Explique la forma en que son validadas cada una de las entradas.
+### 2. Explique como puede configurarse la etiqueta button
+
+Button se utiliza para crear botones interactivos en una página web que permiten a los usuarios realizar acciones cuando se hace clic en ellos. Pueden configurarse usando los siguientes argumentos:
+
+**type:** Especifica el tipo de boton . Puede ser de tipo submit, reset y button.
+
+**name:** Este atributo asigna un nombre al botón.
+
+**value:** Define un valor asociado con el botón.
+
+**disabled:** Al establecer este atributo, el botón se desactiva.
+
+**autofocus:** Al establecer este atributo, el botón obtiene el enfoque automáticamente cuando la página se carga, lo que significa que el usuario puede interactuar con él sin tener que hacer clic en él primero.
+
+**form:** Especifica a qué formulario pertenece el botón.
+
+3. Explique el método addEventlistener y como se utiliza en este proyecto
+4. Explique la forma en que son validadas cada una de las entradas.
