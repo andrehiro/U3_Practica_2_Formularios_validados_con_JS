@@ -6,6 +6,11 @@ Input se utiliza para crear elementos de entrada interactivos, estos permiten a 
 Algunos de los argumentos que puede tener son el:
 
 **type:** Especifica el tipo de elemento de entrada que se creará y es obligatorio. Puede ser de tipo text, password, radio, checkbox, submit, reset, file, etcetera.
+**name:** asigna un nombre al elemento de entrada, que se utiliza para identificarlo.
+**value:** Establece un valor predeterminado para el elemento de entrada.
+**placeholder:** Permite proporcionar un texto de marcador dentro del campo de entrada.
+**required:** Si se establece este atributo, el usuario debe completar el campo antes de enviar el formulario.
+**disabled:** Al establecer este atributo, el campo de entrada se desactiva.
 
 
 3. Explique como puede configurarse la etiqueta button
