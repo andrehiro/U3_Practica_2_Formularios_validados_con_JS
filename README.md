@@ -20,6 +20,6 @@ Algunos de los argumentos que puede tener son el:
 **disabled:** Al establecer este atributo, el campo de entrada se desactiva.
 
 
-3. Explique como puede configurarse la etiqueta button
+#### 3. Explique como puede configurarse la etiqueta button
 4. Explique el método addEventlistener y como se utiliza en este proyecto
 5. Explique la forma en que son validadas cada una de las entradas.
